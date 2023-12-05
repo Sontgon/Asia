@@ -1,3 +1,176 @@
+body {
+    height: 100%;
+    line-height: 1;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background-image: url(images/фон.jpg);
+}
+
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+.content { 
+    overflow: hidden;
+    display: block;
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    display: block;
+    width: 1141px;
+    height: 123.36px;
+}
+
+.logo {
+    width: 85px;
+    height: 36px;
+    display: inline;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    width: 264px;
+    height: 19px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu-header {
+    display: inline;
+
+}
+
+.menu {
+   
+}
+
+.contacts {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    margin-left: 45%;
+}
+
+.number {
+font-size: 26px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.schedule {
+font-size: 13px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0px;
+text-align: right;
+}
 
 
 
+/*heading*/
+
+.heading {
+    width: 511px;
+    height: 333px;
+    margin-top: 130px;
+}
+
+h1 {
+    line-height: normal;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: 27.5px;
+}
+
+.button-red {
+    width: 168px;
+    height: 55px;
+    border-radius: 35px;
+    border-color: #F5170E;
+    background: #F5170E;
+    color:#fff;
+    margin-top: 33.5px
+    
+}
+
+
+
+/*tours*/
+
+.tours {
+    width: 1140px;
+    height: 549px;
+    display: block;
+    position: relative;
+    margin-top: 250px;
+}
+
+.tours__first {
+    display: inline-block;
+    width: 362px;
+    height: 449px;
+}
+
+.tours__second {
+    display: inline-block;
+    width: 362px;
+    height: 449px;
+}
+
+.tours__third {
+    display: inline-block;
+    width: 362px;
+    height: 449px;
+}
+
+
+
+/*new-promotions*/
+
+.new-promotions {
+    width: 1139px;
+    height: 600px;
+    display: block;
+    position: relative;
+    margin-top: 27px;
+}
+
+.new-promotions__first {
+    width: 557px;
+    height: 394px;
+    display: inline-block;
+}
+
+.new-promotions__second {
+    width: 557px;
+    height: 394px;
+    display: inline-block;
+}
+
+
+
+footer [
+    
+]
