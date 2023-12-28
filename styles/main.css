@@ -86,6 +86,7 @@ h1 {
   }
 
   .tours__button {
+    cursor: pointer;
     width: 135px;
     height: 55px;
     margin-top: 24.5px;
