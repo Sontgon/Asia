@@ -26,6 +26,18 @@ h1 {
     position: relative;
     
   }
+
+  .image-wrapper {
+    width: 100%;
+    height: 549px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .card-wrapper {
+    width: 324px;v
+    margin: 33px 16px 26px 22px;
+  }
   
   .tours__first {
     display: inline-block;
@@ -34,36 +46,32 @@ h1 {
     background-color: #fff;
   }
 
-  .tours__features {
-
-  }
+ 
 
   .tours__content {
     color: #000;
-    margin-top: 33px;
-    margin-left: 22px;
     margin-bottom: 21px;
   }
 
   .day-and-breakfast {
     color: #666;
     display: inline-flex;
-    margin-left: 28px;
-    margin-right: 62px;
   }
-
+  
   .day {
     margin-right: 28px;
   }
 
 
   .tours__description {
+    width: 324px;
+    height: 63px;
     color: #303030;
     font-size: 14px;
     margin-top: 23.5px;
-    margin-left: 22px;
-    margin-right: 16px;
     line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .calendar {
@@ -90,10 +98,16 @@ h1 {
     width: 135px;
     height: 55px;
     margin-top: 24.5px;
-    margin-left: 24px;
     border-radius: 35px;
     color: #F5170E;
     border: 1px solid #F5170E;
     background-color: #fff;
     text-transform: uppercase;
+  }
+
+  .tours_button:hover,
+  .tours__button:active {
+    background-color: #F5170E;
+    color:#fff;
+    transition: 0.3s;
   }
