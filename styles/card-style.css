@@ -35,7 +35,7 @@ h1 {
   }
 
   .card-wrapper {
-    width: 324px;v
+    width: 324px;
     margin: 33px 16px 26px 22px;
   }
   
@@ -57,7 +57,7 @@ h1 {
     color: #666;
     display: inline-flex;
   }
-  
+
   .day {
     margin-right: 28px;
   }
