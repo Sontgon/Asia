@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Asia",
+			"path": "."
+		},
+		{
+			"name": "template images",
+			"path": "../asia-05-11-23/images/template images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Asia"
+	}
+}
